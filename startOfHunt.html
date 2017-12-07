@@ -41,17 +41,30 @@
     }
 
 
-
-
-    // BEING PART TO INTEGRATE INTO NUITINFOMAIN
-
-
-
-
-    // END PART TO INTEGRATE INTO NUITINFOMAIN
-
+    /*CODE FOR CSS NUITINFO BEGIN*/
     
-
+    div.slide-slow {
+    width:100%;
+    overflow:hidden;
+    }
+    div.slide-slow div.inner {
+    animation: slide-slow 10s;
+    margin-top:1%;
+    margin_bottom:1%;
+    }
+    
+    @keyframes slide-slow {
+    from {
+    margin-left: 100%;
+    }
+    
+    to {
+    margin-left: 0%;
+    }
+    }
+    
+    /*CODE FOR CSS NUITINFO END*/
+    
     
   </style>
 </head>
@@ -87,37 +100,33 @@
       <p><a href="#">Link</a></p>
       <p><a href="#">Link</a></p>
       <p><a href="#">Link</a></p>
+
+
+
+
+
+      
     </div>
     <div class="col-sm-8 text-left"> 
       <h1>Welcome</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
       <hr>
-
-      
-      // BEING PART TO INTEGRATE INTO NUITINFO
-      
-      <img src="dessinnb.svg" class="img-fluid width:50%/9 height:50%" alt="Responsive image">
-
-
-      
-      
-      // END PART TO INTEGRATE INTO NUITINFO
-
-
-
-
-
-      
       <h3>Test</h3>
       <p>Lorem ipsum...</p>
     </div>
     <div class="col-sm-2 sidenav">
-      <div class="well">
-        <p>ADS</p>
+        <!-- CODE FOR NUIT INFO MAIN PAGE START  REF: http://www.html.am/html-codes/marquees/slide-in-image.cfm -->
+
+
+      <div class="slide-slow text-right">
+	<div class="inner">
+	  <a href="/HuntBegins.html"><img src="rabbite.png" width="60" height="70" alt="Easter Egg Hunt" /></a>
+	</div>
       </div>
-      <div class="well">
-        <p>ADS</p>
-      </div>
+ 
+
+        <!-- CODE FOR NUIT INFO MAIN PAGE END   -->
+
     </div>
   </div>
 </div>
