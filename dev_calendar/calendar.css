@@ -1,6 +1,11 @@
 body{
-  background-color: #c7c7c7;
-
+  background-color: white;
+  color: black;
+  background-image: url("image/wallpaper5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 h1{
