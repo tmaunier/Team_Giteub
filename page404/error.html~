@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Merci Pr Taveau</title>
+
+<!-- insertion image -->
+<!--
+<p><img src="PATH" width="401" height="418" alt="nom losque passe dessus" /></p>
+-->
+
+<!-- ************** M A T R I X and V E C T O R S   A P I ************** -->
+<script src="gl-matrix.js"></script>
+
+<!-- ************** S H A D E R S ************** -->
+<script type="text/javascript" src ="webgl_shaders.js"></script>
+
+<!-- ************** M Y   C O D E ************** -->
+<!-- <script type="text/javascript" src="my_data.js"></script> -->
+<script type="text/javascript" src="webgl_no_texture.js"></script>
+<script type="text/javascript" src="myRenderer.js"></script>
+<!--  mise en place environment js -->
+
+</head>
+
+<body onload="main()">
+<!-- définit le script que l'on appelle pour définir le coeur de la page -->
+
+<div align="center">
+<p><img src="error/error_404.gif" width="401" height="418" alt="Erreur 404" /></p>
+<p>Hum... c'est embarrassant, le fichier que vous avez demandé est introuvable.</p>
+<p>L'URL que vous avez entré est peut-être incorrecte. Essayer de rafraichir la page avec F5.</p>
+
+
+<center>
+<canvas id="my_canvas" width="1280" height="720"> </canvas>
+<!-- définit l'espace dans lequel affiche la 3D -->
+
+</center>
+</body>
+</html>
