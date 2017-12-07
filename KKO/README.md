@@ -1,3 +1,3 @@
-# Projet à la con pour la nuit de l'info
+# KKO Project
 
-Faut faire des trucs on attend le sujet
+Faut faire encore des trucs
