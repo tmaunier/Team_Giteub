@@ -1,0 +1,4 @@
+#files you want to ignore when you push
+
+#ignore backup files
+*~
