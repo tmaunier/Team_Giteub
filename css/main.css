@@ -47,6 +47,7 @@
       -webkit-filter: blur(0.4px);
   }
   #globalbibine{
+      z-index: 99;
       position: fixed;
       right:250px;
   }
@@ -79,7 +80,7 @@
       bottom:100px;
       right:150px;
       -webkit-filter: blur(0.8px);
-      width: 800px;      
+      width: 400px;      
     }
 
     .vehicle3{

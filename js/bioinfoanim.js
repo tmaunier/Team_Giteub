@@ -35,10 +35,18 @@ $('#past').on("click", function () {
 
 $('#now').on("click", function () {
     $("#background").css('background-image', 'url(img/now.gif)');
+    $("#vehicle").attr("src","img/delorean.png");
+    $('#vehicle').removeClass('vehicle3');
+    $('#vehicle').removeClass('vehicle1');
+    $('#vehicle').addClass('vehicle2');    
     });
 
 $('#futur').on("click", function () {
     $("#background").css('background-image', 'url(img/futur.gif)');
+    $("#vehicle").attr("src","img/monkey.gif");
+    $('#vehicle').removeClass('vehicle2');
+    $('#vehicle').removeClass('vehicle1');
+    $('#vehicle').addClass('vehicle3');    
     });
 });
 
