@@ -140,7 +140,7 @@
         width: 18%;  
         -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
         transition: bottom 0.4s, right 0.2s, rotate 1s; 
-        z-index: 50;     
+        z-index: 0;     
       }
 
       .personnage6{

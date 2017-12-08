@@ -46,11 +46,12 @@ $(document).ready(function () {
         $("#personnage2").show();
         $("#personnage5").hide();
         $("#personnage6").hide();
-
+        $("#messager").show();
         $('#vehicle').css({
             bottom: 16 + "%",
+         });
 
-        });
+         $('#maintext').text("Avant de partir pour un long trajet il est bon de vérifier l'état de votre véhicule.\n         Il est également conseillé de vérifier la fluidité du trafic.\n         La présence de travaux et les zones a risques doivent être identifiés avant de partir.\n         Si vous roulez de nuit veillez à faire des pauses régulières. Conduire fatigué c'est équivalent à vider la bière sur le côté\n         Ces conseils sont d'autant plus important pour les véhicules à deux roues. Nous ne sommes pas en 2442 avec des exoarmures. Pourtant un bon casque et des équipements adaptés peuvent souvent éviter le pire.");
     });
 
     $('#now').on("click", function () {
@@ -65,6 +66,7 @@ $(document).ready(function () {
         $("#personnage6").show();
         $("#personnage1").hide();
         $("#personnage2").hide();
+        $("#messager").hide();
 
 
 
@@ -78,6 +80,7 @@ $(document).ready(function () {
             right: 150 + "px",
         });
 
+        $('#maintext').text("Avant de partir pour un long trajet il est bon de vérifier l'état de votre véhicule. Il est également conseillé de vérifier la fluidité du trafic. \n La présence de travaux et les zones a risques doivent être identifiés avant de partir.\nSi vous roulez de nuit veillez à faire des pauses régulières. Conduire fatigué c'est équivalent à vider la bière sur le côté ;)\n Ces conseils sont d'autant plus important pour les véhicules à deux roues. Nous ne sommes pas en 2442 avec des exoarmures. Pourtant un bon casque et des équipements adaptés peuvent souvent éviter le pire.");
     });
 
     $('#futur').on("click", function () {
@@ -91,10 +94,16 @@ $(document).ready(function () {
         $("#personnage6").hide();
         $("#personnage3").show();
         $("#personnage4").show();
-
+        $("#messager").hide();
+        
         $('#vehicle').removeClass('vehicle2');
         $('#vehicle').removeClass('vehicle1');
         $('#vehicle').addClass('vehicle3');
+
+
+        $('#maintext').text("Ceci est un message adressé de prévention adressé à la population par les IA civiles :\n Les androïdes, les non-humains, et les populations issues des races aliennes présentes légalement sur la planète sont également concernées.\n    Suite à la liquidation boursière d'un laboratoire de reherche illégal la semaine dernière différents animaux génétiquement modifiés sont encore rescencés aux les abords de la cité.\n Les forces de l'ordre procèdent toujours. Certains de ces spécimens sont capables de voler et de venir perturber les couloirs aériens. Prudence.");
+        
+
     });
 });
 
