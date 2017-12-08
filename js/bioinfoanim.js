@@ -104,7 +104,7 @@ $(document).ready(function () {
         $('#vehicle').addClass('vehicle3');
 
 
-        $('#maintext').text("Ceci est un message de prévention adressé à la population par les IA civiles :\n Les androïdes, les non-humains, et les populations issues des races aliennes présentes légalement sur la planète sont également concernées.\n    Suite à la liquidation boursière d'un laboratoire de reherche illégal la semaine dernière différents animaux génétiquement modifiés sont encore rescencés aux les abords de la cité.\n Les forces de l'ordre procèdent toujours. Certains de ces spécimens sont capables de voler et de venir perturber les couloirs aériens. Prudence.");
+        $('#maintext').text("Ceci est un message de prévention adressé à la population par les IA civiles :\n Les androïdes, les non-humains, et les populations issues des races aliennes présentes légalement sur la planète sont également concernées.\n    Suite à la liquidation boursière d'un laboratoire de recherche illégale la semaine dernière différents animaux génétiquement modifiés sont encore rescencés aux les abords de la cité.\n Les forces de l'ordre procèdent toujours. Certains de ces spécimens sont capables de voler et de venir perturber les couloirs aériens. Prudence.");
         
 
     });
