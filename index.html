@@ -24,7 +24,10 @@
                 padding-top: 35px;
             }
         }
-
+        .nav-link{
+            font-size:18px;
+            margin-right: 15px;
+        }
         .modal {
             color: rgba(0, 0, 0, 0.514)
         }
@@ -50,12 +53,15 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="OK-KO/OK-KO.html">Défi: OK-KO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="egg/egg.html">Défi: Easter-Egg</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="calendar/calendar.html">Défi: Calendrier de l'Avent</a>
+                    </li>
+                    <li class="nav-item" style="margin-left:50px;float:right">
                         <a href="https://twitter.com/_Giteub?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false" style="padding-top:25px">Follow @_Giteub</a>
                     </li>
                 </ul>
@@ -76,10 +82,10 @@
                         <h4 id="maintext" style="background-color:rgba(255, 255, 255, 0.844); padding:15px; border-radius:10px; color:rgba(53, 53, 53, 0.932)">Oyez oyez ! Venez écouter les recommandations royales de notre souverain Théo de Silverberg. Un nouvel
                             impôt sera prélevé à partir de la semaine prochaine et durant les six prochains mois afin de
                             réparer les voies pavées romaines qui permettent le déplacement dans la cité. Les travaux forceront
-                            des changements de parcours. Pour rappels les voies centrales sont interdites aux charettes, seuls
-                            les corbillards funéraires et les processions de l'Eglise sont autorisés dans le coeur de la
-                            cité. Pour tout transport de marchandise dans la ville n'oubliez pas de le signaler aux Gardes
-                            de la Citadelle et de payez la Dîme.</h4>
+                            des changements de parcours. Pour rappels les voies centrales sont interdites aux charettes,
+                            seuls les corbillards funéraires et les processions de l'Eglise sont autorisés dans le coeur
+                            de la cité. Pour tout transport de marchandise dans la ville n'oubliez pas de le signaler aux
+                            Gardes de la Citadelle et de payez la Dîme.</h4>
             </div>
         </div>
 
@@ -183,9 +189,9 @@
                 <div class="modal-body">
                     <p>Sur la route, vous n'êtes pas seul. Pensez à vous et pensez aux autres. Anticipez les comportements dangereux
                         afin de limitez les risques. Il est également recommandé de vérifier qu'un trajet ne peut pas être
-                        couvert à moindre frais par les transport en communs. <br>Les zones d'habitat sont généralement signalées.
-                        Pensez-y particulièrement de nuit lorsque vous traversez des zones forestières ou de campagne. Pensez
-                        à Allumez vos Feux !
+                        couvert à moindre frais par les transport en communs.
+                        <br>Les zones d'habitat sont généralement signalées. Pensez-y particulièrement de nuit lorsque vous traversez
+                        des zones forestières ou de campagne. Pensez à Allumez vos Feux !
                     </p>
 
                 </div>
@@ -198,34 +204,42 @@
     </div>
 
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModal11" role="dialog">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal11" role="dialog">
         <div class="modal-dialog">
-    
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-body">
-              <p>Point numéro un : Etat de la circulation.<br><br>
-              Les voies terrestres sont réservées aux véhicules de service, au véhicules en commun et prioritaires, seuls les trajets courts sont autorisés au sol c'est à dire inférieurs à 5 km.<br><br>
-              N'oubliez pas de signaler votre descente dans les couloirs ascendants via vos commandes de bord.<br><br>
-    
-              Point numéro deux : Conditions météorologiques.<br><br>
-              Les conditions se sont dégradées cette semaine. Une probabilité de pluies acides est attendue à 54% de risque dans la journée.
-              Pour ceux voyageant en dehors du bouclier de la ville veillez à vérifier l'état de vos boucliers.
-              Enfin une tempête électromagnétique pourrait éclater dans la soirée. Le trajet est déconseilllé après 21h.<br><br>
 
-
-              Point numéro trois : Transports en communs.<br><br>
-              N'oubliez pas qu'ils sont accessibles a tout humanoïde gratuitement. Si un quelconque problème vous empêche d'accéder à votre véhicule personnel ils sont a votre disposition.
-              Pour rappel, les capteurs biométriques automatisés vont empêcheront de conduire si votre niveau de consommation de spiritueux est non conforme à la limite estimée pour votre taille, age, poids, et race.<br><br>
-
-              Rappel : faites attention en empruntant les couloirs ascendants, les IAs intégrées aux véhicules ne couvrent pas les calculs des manoeuvres rapides.</p>
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>Point numéro un : Etat de la circulation.
+                        <br>
+                        <br> Les voies terrestres sont réservées aux véhicules de service, au véhicules en commun et prioritaires,
+                        seuls les trajets courts sont autorisés au sol c'est à dire inférieurs à 5 km.
+                        <br>
+                        <br> N'oubliez pas de signaler votre descente dans les couloirs ascendants via vos commandes de bord.
+                        <br>
+                        <br> Point numéro deux : Conditions météorologiques.
+                        <br>
+                        <br> Les conditions se sont dégradées cette semaine. Une probabilité de pluies acides est attendue à
+                        54% de risque dans la journée. Pour ceux voyageant en dehors du bouclier de la ville veillez à vérifier
+                        l'état de vos boucliers. Enfin une tempête électromagnétique pourrait éclater dans la soirée. Le
+                        trajet est déconseilllé après 21h.
+                        <br>
+                        <br> Point numéro trois : Transports en communs.
+                        <br>
+                        <br> N'oubliez pas qu'ils sont accessibles a tout humanoïde gratuitement. Si un quelconque problème vous
+                        empêche d'accéder à votre véhicule personnel ils sont a votre disposition. Pour rappel, les capteurs
+                        biométriques automatisés vont empêcheront de conduire si votre niveau de consommation de spiritueux
+                        est non conforme à la limite estimée pour votre taille, age, poids, et race.
+                        <br>
+                        <br> Rappel : faites attention en empruntant les couloirs ascendants, les IAs intégrées aux véhicules
+                        ne couvrent pas les calculs des manoeuvres rapides.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-            </div>
-          </div>
-    
+
         </div>
     </div>
 
@@ -277,7 +291,7 @@
     <img id="personnage2" class="personnage2" style="display:none" src="img/dog.gif" data-toggle="modal" data-target="#myModal4">
 
     <img id="personnage3" class="personnage3" src="img/cowboy.gif" style="display:none">
-    <img id="personnage4" class="personnage4" style="display:none" src="img/robot.gif"  data-toggle="modal" data-target="#myModal11">
+    <img id="personnage4" class="personnage4" style="display:none" src="img/robot.gif" data-toggle="modal" data-target="#myModal11">
 
     <img id="personnage5" class="personnage5" src="img/science1.gif" style="display:none" data-toggle="modal" data-target="#myModal7">
     <img id="personnage6" class="personnage6" style="display:none" src="img/fighter.gif" data-toggle="modal" data-target="#myModal8">
