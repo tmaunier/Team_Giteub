@@ -26,6 +26,11 @@ $( document ).ready(function() {
 
 $('#past').on("click", function () {
     $("#background").css('background-image', 'url(img/past.gif)');
+    $("#vehicle").attr("src","img/knight.gif");
+    $('#vehicle').removeClass('vehicle3');
+    $('#vehicle').removeClass('vehicle2');
+    $('#vehicle').addClass('vehicle1');    
+    
     });
 
 $('#now').on("click", function () {
@@ -36,15 +41,22 @@ $('#futur').on("click", function () {
     $("#background").css('background-image', 'url(img/futur.gif)');
     });
 });
+
 $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
     top = scrollTop;
+
     $('#alcool').css({
         top: $(window).scrollTop() * 0.2 + "px"
     });
     $('#beerlevel').css({
         bottom: 111 - $(window).scrollTop() * 0.2 + "px"
     });
+
+    $('#vehicle').css({
+        left: $(window).scrollTop() * 0.8 + "px"
+    });
+
 })
 
 

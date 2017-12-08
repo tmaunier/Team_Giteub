@@ -67,15 +67,43 @@
       color:white;
   }
 
-  #delorean{
+  .vehicle1{
+      position: fixed;
+      bottom:145px;
+      left:0px;
+      width: 445px;      
+    }
+
+  .vehicle2{
       position: fixed;
       bottom:100px;
       right:150px;
       -webkit-filter: blur(0.8px);
-  }
-  #delorean img{
-    width: 800px;
-}
+      width: 800px;      
+    }
+
+    .vehicle3{
+        position: fixed;
+        bottom:100px;
+        right:150px;
+        -webkit-filter: blur(0.8px);
+        width: 800px;      
+      }
+
+      .personnage1{
+        position: fixed;
+        bottom:232px;
+        right:10%;
+        width: 130px;      
+      }
+
+      .personnage2{
+        position: fixed;
+        bottom:232px;
+        right:19%;
+        width: 130px;      
+      }
+
 
 .timemachine{
     position: fixed;
