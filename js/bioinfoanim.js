@@ -29,6 +29,7 @@ $(document).ready(function () {
     $("#personnage1").show();
     $("#personnage2").show();
     $('#past').on("click", function () {
+        window.scrollTo(0,0);
         var activeimage = $('#vehicle').attr("src");
         $("#background").css('background-image', 'url(img/past.gif)');
         $("#background").css('margin-top', '0px');
@@ -51,10 +52,11 @@ $(document).ready(function () {
             bottom: 16 + "%",
          });
 
-         $('#maintext').text("Avant de partir pour un long trajet il est bon de vérifier l'état de votre véhicule.\n         Il est également conseillé de vérifier la fluidité du trafic.\n         La présence de travaux et les zones a risques doivent être identifiés avant de partir.\n         Si vous roulez de nuit veillez à faire des pauses régulières. Conduire fatigué c'est équivalent à vider la bière sur le côté\n         Ces conseils sont d'autant plus important pour les véhicules à deux roues. Nous ne sommes pas en 2442 avec des exoarmures. Pourtant un bon casque et des équipements adaptés peuvent souvent éviter le pire.");
+         $('#maintext').text("Avant de partir pour un long trajet il est bon de vérifier l'état de votre véhicule.\n         Il est également conseillé de vérifier la fluidité du trafic.\n         La présence de travaux et les zones a risques doivent être identifiés avant de partir.\n         Si vous roulez de nuit veillez à faire des pauses régulières. Conduire fatigué c'est équivalent à vider la bière sur le côté.\n         Ces conseils sont d'autant plus importants pour les véhicules à deux roues. Nous ne sommes pas en 2442 avec des exoarmures. Pourtant un bon casque et des équipements adaptés peuvent souvent éviter le pire.");
     });
 
     $('#now').on("click", function () {
+        window.scrollTo(0,0);
         var activeimage = $('#vehicle').attr("src");
         $("#background").css('background-image', 'url(img/now.gif)');
         $("#background").css('margin-top', '-35px');
@@ -84,6 +86,7 @@ $(document).ready(function () {
     });
 
     $('#futur').on("click", function () {
+        window.scrollTo(0,0);
         var activeimage = $('#vehicle').attr("src");
         $("#background").css('background-image', 'url(img/futur2.gif)');
         $("#background").css('margin-top', '0px');
@@ -101,7 +104,7 @@ $(document).ready(function () {
         $('#vehicle').addClass('vehicle3');
 
 
-        $('#maintext').text("Ceci est un message adressé de prévention adressé à la population par les IA civiles :\n Les androïdes, les non-humains, et les populations issues des races aliennes présentes légalement sur la planète sont également concernées.\n    Suite à la liquidation boursière d'un laboratoire de reherche illégal la semaine dernière différents animaux génétiquement modifiés sont encore rescencés aux les abords de la cité.\n Les forces de l'ordre procèdent toujours. Certains de ces spécimens sont capables de voler et de venir perturber les couloirs aériens. Prudence.");
+        $('#maintext').text("Ceci est un message de prévention adressé à la population par les IA civiles :\n Les androïdes, les non-humains, et les populations issues des races aliennes présentes légalement sur la planète sont également concernées.\n    Suite à la liquidation boursière d'un laboratoire de reherche illégal la semaine dernière différents animaux génétiquement modifiés sont encore rescencés aux les abords de la cité.\n Les forces de l'ordre procèdent toujours. Certains de ces spécimens sont capables de voler et de venir perturber les couloirs aériens. Prudence.");
         
 
     });
@@ -114,6 +117,16 @@ $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
     var activeimage = $('#vehicle').attr("src");
     top = scrollTop;
+
+
+    var scrollTop = $(window).scrollTop();
+    var max=$(document).height() - $(window).height()
+    $("#pct").text((((scrollTop)/max)*100).toFixed(0)+"%");
+
+
+
+
+
 
     $('#alcool').css({
         top: $(window).scrollTop() * 0.2 + "px"
