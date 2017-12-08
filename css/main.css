@@ -62,7 +62,7 @@
       background-image: url("../img/past.gif");
       background-size:cover;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: bottom center;
   }
   .titlewhite{
       color:white;
@@ -70,40 +70,96 @@
 
   .vehicle1{
       position: fixed;
-      bottom:145px;
+      bottom:16%;
       left:0px;
-      width: 445px;      
+      width: 24%;
+      z-index: 10;       
     }
 
   .vehicle2{
       position: fixed;
-      bottom:100px;
+      bottom:7%;
       right:150px;
       -webkit-filter: blur(0.8px);
-      width: 400px;      
+      width: 34%;      
+      z-index: 10;       
+      
     }
 
     .vehicle3{
         position: fixed;
-        bottom:100px;
+        bottom:5%;
         right:150px;
         -webkit-filter: blur(0.8px);
-        width: 800px;      
-      }
+        width: 28%;      
+        z-index: 10;       
+        
+    }
 
       .personnage1{
         position: fixed;
         bottom:232px;
-        right:10%;
-        width: 130px;      
+        right:14%;
+        width: 130px;
+        -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
+        transition: bottom 0.4s, right 0.2s, rotate 1s;      
       }
 
       .personnage2{
         position: fixed;
         bottom:232px;
         right:19%;
-        width: 130px;      
+        width: 130px;
+        -webkit-transition: bottom 0.6s, right 0.2s, rotate 1s;
+        transition: bottom 0.6s, right 0.2s, rotate 1s;        
       }
+      .personnage3{
+        position: fixed;
+        bottom:6%;
+        right:24%;
+        width: 13%;  
+        -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
+        transition: bottom 0.4s, right 0.2s, rotate 1s; 
+        z-index: 50;     
+      }
+
+      .personnage4{
+        position: fixed;
+        bottom:-11%;
+        right:15%;
+        width: 20%;  
+        -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
+        transition: bottom 0.4s, right 0.2s, rotate 1s;
+        z-index: 50;      
+      }
+
+      .personnage5{
+        position: fixed;
+        bottom:6%;
+        left:-3%;
+        width: 18%;  
+        -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
+        transition: bottom 0.4s, right 0.2s, rotate 1s; 
+        z-index: 50;     
+      }
+
+      .personnage6{
+        position: fixed;
+        bottom:7%;
+        right:15%;
+        width: 13%;  
+        -webkit-transition: bottom 0.4s, right 0.2s, rotate 1s;
+        transition: bottom 0.4s, right 0.2s, rotate 1s;
+        z-index: 9;      
+      }
+
+      .messager{
+        position: fixed;
+        bottom: 25.5%;
+        left: -2%;
+        width: 10%;   
+      }
+
 
 
 .timemachine{
