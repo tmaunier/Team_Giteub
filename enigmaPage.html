@@ -7,6 +7,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <script src="./listeEnigmes.js"></script>
+  <script src="./replaceEnigma.js"></script>
+
+
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -85,13 +91,14 @@
     </div>
     <div class="col-sm-8 text-left"> 
       <h1>Bienvenue à la page d'énigmes !</h1>
-      <p>Resolvez toutes les enigmes pour decouvrir l'image cachée !</p>  
+      <p>Resolvez toutes les enigmes !</p>  
       <hr>
-      <h3>Avez vous trouvée Sam ?</h3>
-      
-      <p id="">Entrez la reponse de l'enigme en cours pour debloquer une partie de l'image et passer à l'enigme suivante.</p>
+      <div id="enigma">
 
-      <input id="reponse" placeholder="reponse de l'enigme">
+      </div>
+
+      
+      <input id="response" placeholder="reponse de l'enigme">
 
       
     </div>
